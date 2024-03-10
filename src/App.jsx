@@ -9,7 +9,8 @@ function App() {
       <>
           <Navbar></Navbar>
           <h1 className="text-3xl font-bold underline">
-              Hello ALL world! {count} <button onClick={()=>{setCount(count+1)}}>+</button>
+              Hello All world! {count} <button onClick={()=>{setCount(count+1)}}>+</button>
+ 
           </h1>
       </>
   )
